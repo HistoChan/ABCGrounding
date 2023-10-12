@@ -1,0 +1,27 @@
+#basis
+numpy~=1.24.3
+pandas~=2.0.2
+scikit-learn~=1.2.2
+scipy~=1.10.1
+unidecode~=1.3.6
+nltk~=3.8.1
+networkx~=3.1
+pyswip==0.2.10
+
+# evaluation
+bert_score~=0.2
+rouge_score~=0.1.2
+datasets==2.13.1
+evaluate~=0.4
+sentence_transformers~=2.2
+
+# For Dolly 2.0 / T5 / OpenLlama
+accelerate~=0.20.3
+transformers~=4.29.2
+torch~=2.0.1
+sentencepiece~=0.1.98
+protobuf~=3.20
+
+# For GPT
+openai~=0.27.8
+tenacity~=8.2.2
