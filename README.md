@@ -94,6 +94,10 @@ After having a list of subgraph isomorphisms in KG, we select two to three for r
 
 Once we have the ground truth theories, we can mask constants or predicates randomly to have a test case theory. There are 4 Prolog files for each test case. Variation 1 replaces a constant name with a dummy name once only, while variation 2 replaces all the same constant names with that dummy name. Variations 3 and 4 act similarly except they replace a predicate name. We prioritize selecting items with two or more appearances in the theory so that there are differences between these variations.
 
+## Grounding Performance
+
+Refer to the file [ABCStaticsGithub.pdf](https://github.com/HistoChan/ABCGrounding/blob/main/ABCStaticsGithub.pdf) for more information.
+
 ## References
 
 <a id="1">[1]</a>
